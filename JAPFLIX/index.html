@@ -30,6 +30,17 @@
     </div>
   </main>
 
+  <!-- Contenedor para mostrar detalles de la película -->
+<div class="offcanvas offcanvas-top" tabindex="-1" id="movieDetailsCanvas" aria-labelledby="movieDetailsCanvasLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="movieDetailsCanvasLabel">Detalles de la Película</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body" id="movieDetailsContent">
+    <!-- Aquí se llenará con los detalles de la película -->
+  </div>
+</div>
+
   <footer class="text-muted py-3">
     <div class="container">
       <p class="float-end mb-1">
@@ -42,6 +53,7 @@
   </footer>
 
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 
 </body>
 
